@@ -14,6 +14,9 @@
 
 <div id="tasks">
 <ul class="hour">
+<li data-value="-1" class="subtract">-1</li>
+<li data-value="-1" class="subtract">-1</li>
+<li data-value="-1" class="subtract">-1</li>
 <li data-value="1">1</li>
 <li data-value="1">1</li>
 <li data-value="1">1</li>
@@ -25,6 +28,9 @@
 </ul>
 <div class="clear"></div>
 <ul class="half">
+<li data-value="-.5" class="subtract">-&frac12;</li>
+<li data-value="-.5" class="subtract">-&frac12;</li>
+<li data-value="-.5" class="subtract">-&frac12;</li>
 <li data-value=".5">&frac12;</li>
 <li data-value=".5">&frac12;</li>
 <li data-value=".5">&frac12;</li>
@@ -36,6 +42,9 @@
 </ul>
 <div class="clear"></div>
 <ul class="quarter">
+<li data-value="-.25" class="subtract">-&frac14;</li>
+<li data-value="-.25" class="subtract">-&frac14;</li>
+<li data-value="-.25" class="subtract">-&frac14;</li>
 <li data-value=".25">&frac14;</li>
 <li data-value=".25">&frac14;</li>
 <li data-value=".25">&frac14;</li>
@@ -47,6 +56,7 @@
 <li data-value=".25">&frac14;</li>
 </ul>
 <div class="clear"></div>
+
 </div>
 
 <div>

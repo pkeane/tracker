@@ -148,6 +148,14 @@ div.controls {
     height: 22px;
 }
 
+#tasks li.subtract {
+    padding-top: 14px;
+    width: 50px;
+    height: 36px;
+    background-color: #333;
+    color: white;
+}
+
 
 
 ul#projects {
@@ -179,6 +187,6 @@ ul#projects li ul {
 ul#projects li ul li {
     padding: 4px;
     background-color: #f90;
-    width: 30px;
+    width: 36px;
     height: 20px;
 }
