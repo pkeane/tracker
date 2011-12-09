@@ -1,0 +1,17 @@
+{
+    "id":"http://pkeane.net/popdb/item/dfa7aa",
+        "app_root":"http://pkeane.net/popdb",
+        "created":"2011-03-28T16:17:37-05:00",
+        "updated":"2011-03-28T16:30:38-05:00",
+        "links":
+        {
+            "self":"/item/dfa7aa",
+            "metadata":"/item/dfa7aa/metadata"
+        },
+        "metadata":
+        {
+            "title":["test","test two"],
+            "description":["my description","a longer description of this item"]
+        }
+}
+

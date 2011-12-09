@@ -1,0 +1,184 @@
+body {
+    color: #334;
+	font-family: verdana, sans-serif;
+	background-color: #fff;
+}
+
+div#header {
+    height: 30px;
+	background-color: #f1f7f8;
+	background-color: #e0e6ef;
+    padding: 16px 10px 0px 10px;
+    margin: 6px 0 0 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+div#header h1 {
+    float: left;
+    margin-top: -3px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div#header a.menu {
+    float: right;
+    margin-right: 20px;
+}
+
+
+div#container {
+    margin: 10px;
+}
+
+div#main {
+    padding: 10px 0px 0 10px;
+}
+
+form.add {
+    padding: 20px 10px;
+    background-color: #fff0d0;
+    margin-top: -6px;
+    margin-left: -10px;
+    margin-bottom:20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+    color: #666;
+    font-size: 11px;
+    display: block;
+}
+
+#main h2 {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+h2 a.toggle {
+    color: #33c;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.attributes ul {
+    margin: 10px;
+}
+
+li {
+    margin: 4px 0;
+}
+
+a.delete {
+    color: #c00;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+dl.metadata {
+    padding: 10px;
+    margin-top: 12px;
+    margin-right: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+dl.metadata dt {
+    font-weight: bold;
+}
+
+dl.metadata dd {
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 8em;
+    width: 500px;
+}
+a.edit {
+    font-size: 11px;
+    font-weight: bold;
+    color: #900;
+}
+
+div.controls {
+    float: right;
+    margin-right: 20px;
+}
+
+#tasks ul {
+    margin: 0;
+    width: 60%;
+}
+
+#tasks li {
+    text-align: center;
+    float: left;
+    background-color: #c00;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#tasks ul.hour li {
+    padding-top: 14px;
+    width: 50px;
+    height: 36px;
+}
+
+#tasks ul.half li {
+    padding-top: 9px;
+    width: 40px;
+    height: 30px;
+}
+
+#tasks ul.quarter li {
+    padding-top: 5px;
+    width: 28px;
+    height: 22px;
+}
+
+
+
+ul#projects {
+    margin: 0;
+    width: 90%;
+    margin-top: 30px;
+}
+
+ul#projects li {
+    padding-top: 18px;
+    text-align: center;
+    float: left;
+    background-color: #ff6;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 120px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+ul#projects li ul {
+    margin: 20px;
+    width: 160px;
+    height: 100px;
+}
+
+ul#projects li ul li {
+    padding: 4px;
+    background-color: #f90;
+    width: 30px;
+    height: 20px;
+}
