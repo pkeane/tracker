@@ -1,0 +1,13 @@
+this is a simple graphical task/time tracker
+
+to install, create two directories in base install:
+
+data/
+cache/
+
+make both apache-writeable
+
+open .htaccess and make sure RewriteBase is set properly.
+
+go to http://mydomain.com/tracker/install.php
+
