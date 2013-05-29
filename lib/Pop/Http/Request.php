@@ -107,7 +107,11 @@ class Pop_Http_Request
 
 	public function getHandler()
 	{
-			return array_shift(explode('/',trim($this->getPath(),'/')));
+
+			$trimmed = trim($this->getPath(),'/');
+			$parts = explode('/',$trimmed);
+			$str = array_shift($parts);
+      return $str;
 	}
 
 	public function getHeaders() 
