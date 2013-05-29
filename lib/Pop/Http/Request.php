@@ -109,8 +109,8 @@ class Pop_Http_Request
 	{
 
 			$trimmed = trim($this->getPath(),'/');
-			$str = array_shift(explode('/',$trimmed));
-			//$str = array_shift($parts);
+			$parts = explode('/',$trimmed);
+			$str = array_shift($parts);
       return $str;
 	}
 
